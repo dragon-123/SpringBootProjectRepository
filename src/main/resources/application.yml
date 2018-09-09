@@ -15,5 +15,19 @@ spring:
     view:
       prefix: /
       suffix: .jsp
+#mybatis
+  datasource:
+    type: org.apache.commons.dbcp.BasicDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/aliyun
+    username: root
+    password: root
+mybatis:
+    mapper-locations: ei/aliyun/mapper/*Mapper.xml
+    type-aliases-package: ei.aliyun.entity
+#告知springboot mapper文件所在的位置 创建sqlSessionFactory
+
+
+
 
 
