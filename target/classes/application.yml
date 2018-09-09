@@ -1,3 +1,19 @@
 #修改内嵌的tomcat端口
 server:
   port: 8989
+#指明是生产环境配置文件还是测试环境配置文件
+spring:
+  profiles:
+    active: dev
+#处理中文乱码问题
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+#springboot jsp 支持配置
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+
+
