@@ -1,0 +1,3 @@
+#修改内嵌的tomcat端口
+server:
+  port: 8989
