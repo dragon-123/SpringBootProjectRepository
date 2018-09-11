@@ -1,1 +1,3 @@
 ei\aliyun\controller\TestController.class
+ei\aliyun\service\UserService.class
+ei\aliyun\service\impl\UserServiceImpl.class
