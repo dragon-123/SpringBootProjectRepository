@@ -1,0 +1,33 @@
+#修改内嵌的tomcat端口
+server:
+  port: 8989
+#指明是生产环境配置文件还是测试环境配置文件
+spring:
+  profiles:
+    active: dev
+#处理中文乱码问题
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+#springboot jsp 支持配置
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+#mybatis
+  datasource:
+    type: org.apache.commons.dbcp.BasicDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/aliyun
+    username: root
+    password: root
+mybatis:
+    mapper-locations: ei/aliyun/mapper/*Mapper.xml
+    type-aliases-package: ei.aliyun.entity
+#告知springboot mapper文件所在的位置 创建sqlSessionFactory
+
+
+
+
+

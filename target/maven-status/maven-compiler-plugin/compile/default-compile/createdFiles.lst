@@ -1,3 +1,8 @@
+ei\aliyun\controller\HelloController.class
+ei\aliyun\entity\User.class
 ei\aliyun\controller\TestController.class
+ei\aliyun\dao\UserDAO.class
+ei\aliyun\dao\BaseDAO.class
 ei\aliyun\service\UserService.class
+ei\aliyun\Application.class
 ei\aliyun\service\impl\UserServiceImpl.class
